@@ -28,9 +28,7 @@ const AboutMe = () => {
                           <a href="#projects" className="cosmic-button ">
                               View Projects
                           </a>
-                          <a href="#contact" className="px-6 border borer-rounded rounded-full border-primary    hover:bg-white transition-colors duration-300 ease-in-out">
-                              Download CV
-                          </a>
+                       
                         
                       </div>
                   </div>
