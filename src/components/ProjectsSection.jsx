@@ -8,7 +8,7 @@ const ProjectsSection = () => {
             title: "Rock Paper Scissors",
             description: "Simple Rock Paper Scissors Game",
             demoUrl: "https://rock-paper-scissors-fk7pzsesx-itays-projects-8ccbd600.vercel.app",
-            image: "src/pics/rps.jpg",
+            image: "public/rps.jpg",
             tags :["react,javascript,css"]
         },
         {
@@ -16,7 +16,7 @@ const ProjectsSection = () => {
             title: "Personal Portfolio",
             description: "An animation portfolio website",
             demoUrl: "https://www.behance.net/etayle",
-            image: "src/pics/showcase.jpg",
+            image: "public/showcase.jpg",
             tags: [" AfterEffects,Unity,Photoshop"]
         },
         {
@@ -24,7 +24,7 @@ const ProjectsSection = () => {
             title: "Quiz App",
             description: "Description of project 3",
             demoUrl: "https://quiz-app-nine-lemon.vercel.app/",
-            image: "src/pics/quiz.jpg",
+            image: "public/quiz.jpg",
              tags :["react,javascript,css"] 
         }
     ]
