@@ -22,7 +22,7 @@ const ProjectsSection = () => {
         {
                id: 3,
             title: "Quiz App",
-            description: "Description of project 3",
+            description: "4 Questions Quiz App",
             demoUrl: "https://quiz-app-nine-lemon.vercel.app/",
             image: "public/quiz.jpg",
              tags :["react,javascript,css"] 
