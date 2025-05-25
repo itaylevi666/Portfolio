@@ -16,8 +16,9 @@ const AboutMe = () => {
                       </h3>
                       
                   <p>
-                  I am a frontend developer with a passion for building visually stunning and intuitive web experiences. With expertise in HTML, CSS, JavaScript, and modern frameworks like React and Next, I thrive on creating sleek, user-friendly designs that bring ideas to life.
-
+                  Creative Front-End Developer with a passion for building responsive, user-friendly interfaces using HTML, CSS, JavaScript, and
+                   React. Combines technical skills with a strong visual background in design and motion graphics. Experienced in cross
+                f   unctional collaboration and delivering polished, engaging digital experiences. 
                       </p>
                     
                   <p className='"text-muted-foreground opacity-0 animate-fade-in-delay-4'>
