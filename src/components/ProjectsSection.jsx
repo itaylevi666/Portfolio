@@ -26,7 +26,15 @@ const ProjectsSection = () => {
             demoUrl: "https://quiz-app-nine-lemon.vercel.app/",
             image: "/quiz.jpg",
              tags :["react,javascript,css"] 
-        }
+        },
+        {
+            id: 4,
+         title: "Movie Search App",
+         description: "A movie search App ,fetching from Api including Conntext",
+         demoUrl: "https://movie-app-y1dx.vercel.app/",
+         image: "/movie.jpg",
+          tags :["react,javascript,css,api"] 
+     },
     ]
 
 

@@ -18,7 +18,7 @@ const AboutMe = () => {
                   <p>
                   Creative Front-End Developer with a passion for building responsive, user-friendly interfaces using HTML, CSS, JavaScript, and
                    React. Combines technical skills with a strong visual background in design and motion graphics. Experienced in cross
-                f   unctional collaboration and delivering polished, engaging digital experiences. 
+                functional collaboration and delivering polished, engaging digital experiences. 
                       </p>
                     
                   <p className='"text-muted-foreground opacity-0 animate-fade-in-delay-4'>
