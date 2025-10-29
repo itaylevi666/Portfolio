@@ -20,7 +20,7 @@ const NavBar = () => {
     }, []);
 
   return (
-      <nav className={"  transition-all duration-300 py-20 "}   >
+      <nav className={"  transition-all duration-300 py-15 "}   >
           
       <div className="container flex items-center justify-between w-full px-10">
               <a className="text-l font-bold text-primary flex items-center">

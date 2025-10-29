@@ -7,7 +7,7 @@ const ProjectsSection = () => {
             id: 1,
             title: "Rock Paper Scissors",
             description: "Simple Rock Paper Scissors Game",
-            demoUrl: "https://rock-paper-scissors-fk7pzsesx-itays-projects-8ccbd600.vercel.app",
+            demoUrl: "https://rock-paper-scissors-five-alpha.vercel.app/",
             image: "/rps.jpg",
             tags :["react,javascript,css"]
         },
