@@ -24,13 +24,13 @@ const MainSection = () => {
               </div>
               
           </div>
-          <div className="absolute bottom-40
+          {/* <div className="absolute bottom-40
 
            left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce  mb-20
            ">
               <span className="text-2xl font-bold  mb-2">Scroll</span>
               <ArrowDown className='h-6 w-6 text-primary' />
-              </div>
+              </div> */}
         
     </section>
   )
