@@ -7,12 +7,12 @@ const MainSection = () => {
           <div className="container max-w-4xl mx-auto text-center z-10">
               <div className="space-y-6">
                   <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground animate-fade-in-up">
-                      <span className="opacity-0 animate-fade-in"> Hi, im</span>
+                      <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
                       <span className='text-primary opacity-0 animate-fade-in-delay-2'> Itay</span>
                       <span className='text-primary opacity-0 animate-fade-in-delay-3'> Levi</span>
                   </h1>
                   <p className='text-lg md:text-2xl text-foreground opacity-0 animate-fade-in-delay-4'>
-                      I am a software engineer with a passion for creating innovative solutions.<br></br> I love to learn and explore new technologies.
+                      Motion designer making AI video, UA ads and branded motion.<br></br> I also build the web side - React and JavaScript.
                       
                   </p>
               </div>

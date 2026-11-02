@@ -2,6 +2,7 @@ import React from 'react'
 import { Code } from 'lucide-react'
 import { Clapperboard } from 'lucide-react'
 import { Brain } from 'lucide-react'
+import { Sparkles } from 'lucide-react'
 const AboutMe = () => {
   return (
       <section id="About" className="py-2 px-4 relative">
@@ -12,17 +13,17 @@ const AboutMe = () => {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
                   <div className="space-y-6">
                   <h3 className="text-2xl font-bold ">
-                      Hello  <span className='text-primary'> Future Employer</span>
+                      Hi, <span className='text-primary'> I'm Itay</span>
                       </h3>
                       
                   <p>
-                  Creative Front-End Developer with a passion for building responsive, user-friendly interfaces using HTML, CSS, JavaScript, and
-                   React. Combines technical skills with a strong visual background in design and motion graphics. Experienced in cross
-                functional collaboration and delivering polished, engaging digital experiences. 
+                  Motion designer with nearly a decade of experience in commercials, promos and branded video. Today I focus on AI video and UA ads:
+                   building concepts, art directing generative tools like Higgsfield, Veo 3, Kling and Seedance, and finishing in After Effects.
+                   On the side I code in HTML, CSS, JavaScript and React, so I can take an idea from storyboard to a working page.
                       </p>
                     
                   <p className='"text-muted-foreground opacity-0 animate-fade-in-delay-4'>
-                      I am a quick learner and a team player. I enjoy working in a collaborative environment and sharing my knowledge with others. I believe that communication and teamwork are key to success in any project. 
+                      I work closely with producers, developers and marketers, and I like testing new tools fast to see where they hold up and where they break.
 
                       </p>
                       <div className='flex flex-col sm:flex-row gap-4 pt-2 justify-center  '>
@@ -42,11 +43,23 @@ const AboutMe = () => {
                               </div>
                               <div className="text-left">
                                   <h4 className="text-bold text-lg">Web development</h4>
-                                  <p> Skilled in JavaScript , TypeScript, and API integrations, ensuring seamless functionality across platforms.
+                                  <p> Skilled in JavaScript, React, and API integrations, ensuring seamless functionality across platforms.
                                   </p>
                               </div>
                           </div>
                       </div>
+                      <div className="bg-background gradient-border rounded-lg gradient p-6 card-hover">
+                         <div className="flex items-start gap-4">
+                              <div className="p-3 rounded-full bg-primary/10">
+                            <Sparkles className="h-6 w-6 text-primary"/>
+                              </div>
+                               <div className="text-left">
+                                  <h4 className="text-bold text-lg">Generative AI</h4>
+                                  <p>AI video and UA ads with Higgsfield, Veo 3, Kling and Seedance. Consistent characters, tight prompts, and honest quality checks before anything ships.
+                                  </p>
+                              </div>
+                          </div>
+                        </div>
                       <div className="bg-background gradient-border rounded-lg gradient p-6 card-hover">
                              <div className="flex items-start gap-4">
                               <div className="p-3 rounded-full bg-primary/10">

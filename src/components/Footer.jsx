@@ -3,7 +3,7 @@ import { ArrowUp } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <footer className="py-12 px-4 bg-card  border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center">
+    <footer id="contact" className="py-12 px-4 bg-card  border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center">
     {" "}
     <p className="text-sm text-muted-foreground">
       {" "}
@@ -16,6 +16,10 @@ const Footer = () => {
     >
      My Github
     </a>
+              {" · "}
+              <a href="https://www.behance.net/etayle" target="_blank" rel="noopener noreferrer" className="p-2 text-primary transition-colors">Behance</a>
+              {" · "}
+              <a href="mailto:levietay@gmail.com" className="p-2 text-primary transition-colors">levietay@gmail.com</a>
           </p>
           
 

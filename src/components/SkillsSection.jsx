@@ -12,14 +12,10 @@ const skills = [
   { name: " CSS", level: 80, category: "Frontend" },
   { name: "Next.js", level: 80, category: "Frontend" },
 
-  // Backend
-  { name: "Node.js", level: 80, category: "Backend" },
-  { name: "Express", level: 75, category: "Backend" },
-    { name: "MongoDB", level: 75, category: "backend" },
-   
-    { name: "REST APIs", level: 80, category: "Backend" },
-
-
+  { name: "Higgsfield", level: 85, category: "GenerativeAI" },
+  { name: "Veo 3", level: 85, category: "GenerativeAI" },
+  { name: "Kling", level: 85, category: "GenerativeAI" },
+  { name: "Seedance", level: 80, category: "GenerativeAI" },
 
   { name: "After Effects", level: 90, category: "MotionGraphics" },
   { name: "Photoshop", level: 90, category: "MotionGraphics" },
@@ -33,9 +29,9 @@ const skills = [
  
     ];
     
-    const categories = ["All", "Frontend", "Backend", "MotionGraphics", "Design"];
+    const categories = ["All", "GenerativeAI", "MotionGraphics", "Design", "Frontend"];
 
-    const [activeCategory, setActiveCategory] = React.useState("Frontend");
+    const [activeCategory, setActiveCategory] = React.useState("All");
     
     const filteredSkills = skills.filter(
         (skill)  => activeCategory === "All" || skill.category === activeCategory);

@@ -7,12 +7,12 @@ const NavBar = () => {
         { name: 'About', href: '#About' },
          { name: 'Skills', href: '#skills' },
         { name: 'Projects', href: '#projects' },
-        { name: 'Contact', href: '# contact' },
+        { name: 'Contact', href: '#contact' },
     ]
     const [isOpen, setIsOpen] = useState(false)
     useEffect(() => {
         const handleScroll = () => {
-            setIsopen(window.scrollY > 10);
+            setIsOpen(window.scrollY > 10);
         };
     
         window.addEventListener('scroll', handleScroll);
